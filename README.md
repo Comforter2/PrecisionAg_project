@@ -1,6 +1,6 @@
-# Precision Agriculture Analysis: McCormick Field, Georgia
+# Precision Agriculture Analysis
 
-A comprehensive precision agriculture analysis of a 50-acre row-crop field 
+A comprehensive precision agriculture analysis of a row-crop field 
 in southeastern Georgia, using four years of yield monitor data, soil 
 sampling, ECa surveys, terrain data, and Sentinel-2 satellite imagery to 
 develop variable-rate management zones and a fertilizer prescription 
@@ -15,7 +15,6 @@ terrain characteristics, and remote sensing to identify management zones,
 characterize their agronomic differences, and produce a data-driven 
 recommendation for the next growing season.
 
-**Field:** 50-acre back field, southeastern Georgia  
 **Years analyzed:** 2016 (corn), 2017 (soybeans), 2023 (cotton), 2024 (cotton)  
 **Next crop planned:** Corn
 
@@ -29,7 +28,7 @@ recommendation for the next growing season.
 - Imported and cleaned yield monitor data for four crops/years
 - Applied a 20 m negative buffer to remove edge effects
 - Removed yield monitor outliers (impossible values, sensor errors)
-- Standardized CRS across all spatial layers (EPSG:6345, UTM Zone 16N)
+- Standardized CRS across all spatial layers
 
 ### 2. Spatial Interpolation
 - Created a 5 × 5 m interpolation grid covering the field
@@ -101,8 +100,6 @@ Some tools and packages used are:
 - **openEO** — Sentinel-2 satellite data access for GNDVI analysis
 
 ## Repository Structure
-.
-├── data/               # Raw and intermediate spatial data
 
 ├── code/               # R scripts for each workflow step
 
@@ -113,8 +110,4 @@ Some tools and packages used are:
 ## Acknowledgments
 
 This project was completed as part of a precision agriculture course, 
-applying the analytical workflow to real field data provided by Mr. McCormick.
-
-## Author
-
-Comfort Adegbenro
+applying the analytical workflow to real field data.
