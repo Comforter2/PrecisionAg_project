@@ -71,6 +71,11 @@ boundary = read_sf("../data/50ac/boundary/BackFieldPivot.shp") %>%
 elev = elev %>%
   st_filter(boundary)
   
+
+write_sf(elev, 
+         "../data/elev_v.geojson",
+         delete_dsn = T)
+
 ```
 
 
