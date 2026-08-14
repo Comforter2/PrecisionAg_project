@@ -107,6 +107,11 @@ Some tools and packages used are:
 
 └── README.md
 
+## Data
+Field data (soil grid samples, yield monitor records, ECa, elevation) was provided as part of coursework 
+and is not included in this repository. Only the analysis workflow, code/documentation, and exported map outputs 
+are shared here.
+
 ## Acknowledgments
 
 This project was completed as part of a precision agriculture course, 
