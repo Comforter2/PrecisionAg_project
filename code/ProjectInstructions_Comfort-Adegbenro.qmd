@@ -8,17 +8,6 @@ format:
 author: COMFORT ADEGBENRO
 ---
 
-# Field assignment  
-50-ac field:  
-  - Dare  
-  - Comfort  
-  - Brendan    
-  - Priscila  
-
-Beach field:  
-  - Matteo  
-  - Chinonso  
-  - Ashton  
 
 # A. Introduction  
 After taking the Programming Precision Ag course at UGA, you decided it was time to open your own PA consulting business to offer science-based PA services to producers in Georgia.  
