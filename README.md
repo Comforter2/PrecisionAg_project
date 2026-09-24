@@ -20,8 +20,6 @@ recommendation for the next growing season.
 
 ![](output/ip-yield_maps.png)
 
-![](output/yield-stability-map.png)
-
 ## Workflow
 
 ### 1. Data Cleaning and Preparation
