@@ -113,4 +113,4 @@ are shared here.
 ## Acknowledgments
 
 This project was completed as part of a precision agriculture course, 
-applying the analytical workflow to real field data.
+applying the analytical workflow taught and shown in class to real field data.
